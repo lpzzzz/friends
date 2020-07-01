@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhuan.friends.dao.ActivityMapper">
+
+    <sql id="selectFields">
+        id,user_id,title,content,type,status,create_time,comment_count,score,face_image,expired_time
+    </sql>
+
+    <sql id="insertFields">
+        user_id,title,content,type,status,create_time,comment_count,score,face_image,expired_time
+    </sql>
+
+    <select id="selectActivitys" resultType="Activity">
+        SELECT
+        <include refid="selectFields"></include>
+        FROM activity
+        where status != 2
+        <if test="userId != 0">
+            and user_id = #{userId}
+        </if>
+        order by type DESC , create_time DESC
+        limit #{offset} , #{limit}
+    </select>
+
+    <select id="selectActivityRows" resultType="int">
+        select
+        COUNT(id)
+        from activity
+        where status != 2
+        <if test="userId != 0">
+            and user_id = #{userId}
+        </if>
+    </select>
+
+    <insert id="insertActivity" parameterType="Activity" keyProperty="id">
+        insert into activity(<include refid="insertFields"></include> )
+        VALUES (#{userId},#{title},#{content},#{type},#{status},#{createTime},
+        #{commentCount},#{score},#{faceImage},#{expiredTime})
+    </insert>
+
+    <!--根据活动Id查询活动-->
+    <select id="selectActivityById" resultType="Activity">
+        SELECT
+        <include refid="selectFields"></include>
+        FROM activity
+        WHERE id = #{activityId}
+    </select>
+
+    <update id="updateActivityCommentCount">
+        update activity set comment_count = #{commentCount} where id = #{id}
+    </update>
+
+</mapper>

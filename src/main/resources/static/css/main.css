@@ -1,0 +1,403 @@
+/* index.html CSS */
+/*初始化页面*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgba(30%, 30%, 30%,.8);
+}
+
+.main {
+	padding: 20px 0;
+	padding-bottom: 200px;
+}
+
+.fakeimg {
+    height: 200px;
+	background-color: #000000;
+}
+.navbar{
+	background:black;
+	border:none;
+}
+.navbar-inverse  .navbar-nav>li>a{
+	color:lightgrey;
+	font-size: 1.5rem;
+}
+.navbar-inverse .navbar-brand{
+	color: #fff;
+	font-size: 2.3rem;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color:white;
+  background-color: black;
+}
+carousel-inner > .item active ,.carousel-inner > .item{
+	text-align: center;
+}
+.carousel-inner > .item active > img ,.carousel-inner > .item > img{
+	display: inline-block;
+	width: 100%;
+}
+.nav-pills >li > a:hover,.nav-pills >li > a:focue{
+	background-color:white;
+	color:black;
+}
+.footer {
+  color: gray;
+  text-align: center;
+  position:relative; 
+  padding-top: 3.875rem; 
+}
+
+.center {
+	width: 1200px;
+}
+
+.center nav {
+	margin: 0 auto;
+}
+
+/* VIP.html CSS */
+.nav-tabs{
+	margin-top: 5rem;
+}
+.ranking ,.ranking2 ,.ranking3{  
+ margin: 4em 0;  
+ position: relative;   
+}    
+.ranking .card ,.ranking2 .card ,.ranking3 .card{  
+ box-shadow: 0 0 20px #ccc;  
+}  
+.ranking .card img ,.ranking2 .card img ,.ranking3 .card img{  
+ width: 100%;  
+ height: 12em;  
+}  
+.ranking .card-title ,.ranking2 .card-title ,.ranking3 .card-title{  
+ color:black;     
+}  
+.ranking .card-body ,.ranking2 .card-body ,.ranking3 .card-body{  
+ padding: 1em;  
+}
+
+/* login.html register.html CSS */
+#login-bg{
+	font-family:Verdana;
+/* 	background: url(../img/22.jpg)no-repeat center 0px; */
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size: cover;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #101010;
+    font-weight: 300; 
+}
+/*-- main --*/ 
+.login-main {
+    padding: 2em 0 0;
+}
+.login-form {
+    width: 35%;
+    margin: 2em auto;
+    background: rgba(250, 168, 168, 255); 
+}
+.login-top {
+    padding: 1em 3em 0;
+}
+.login-form input[type="text"], .login-form input[type="password"] {
+    font-size: 1em;
+    color: #fff;
+    padding: 0.8em .5em;
+    border: 0;
+    width: 96%;
+    border-bottom: 1px solid #fff;
+    background: none;
+    -webkit-appearance: none;
+}
+/*-- input-effect --*/
+.login-input input:focus ~ label, .login-input input:valid ~ label {
+    font-size: 1em;
+    color: #FFFFFF;
+    top: -1.5em;
+    -webkit-transition: all 0.125s ease;
+	-moz-transition: all 0.125s ease;
+	-o-transition: all 0.125s ease;
+	-ms-transition: all 0.125s ease;
+    transition: all 0.125s ease;
+}
+.login-input {
+	width:100%;
+	margin: 2em 0 1em;
+	position: relative;
+} 
+.login-input label {
+    color: #fff;
+    padding: 0.8em .5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-weight: 400;
+    font-size: 1em;
+    display: block;
+    line-height: 1em;
+}
+.login-input input ~ span {
+	display: block;
+	width: 0;
+	height:2px;
+	background:#ffc2bc;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	-webkit-transition: all 0.125s ease;
+	-moz-transition: all 0.125s ease; 
+	-o-transition: all 0.125s ease; 
+	-ms-transition: all 0.125s ease; 
+	transition: all 0.125s ease; 
+} 
+.login-input input:focus { outline: 0; }
+.login-input input:focus ~ span {
+	width: 100%;
+	-webkit-transition: all 0.075s ease;
+	-moz-transition: all 0.075s ease;
+	-o-transition: all 0.075s ease;
+	-ms-transition: all 0.075s ease;
+	transition: all 0.075s ease;
+	
+} 
+/*-- //input-effect --*/
+.login-form p {
+    font-size: 1em;
+    color: #fff; 
+}
+/*-- //checkbox --*/ 
+.login-bottom {
+    position: relative;
+    margin: 3em -3em 0;
+}
+.login-bottom:before {
+    content: '';
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-right: 17px solid #ffc2bc;
+	transition:.5s all ease;
+}
+.login-bottom:after {
+    content: '';
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-left: 17px solid #ffc2bc;
+    border-top: 17px solid transparent;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.login-bottom input[type="submit"] {
+	font-size: 1.5em;
+	color: #ffc2bc;
+	background: #f7f5f5;
+	outline: none;
+	cursor: pointer;
+	padding: 0.6em 0;
+	-webkit-appearance: none;
+	border: none;
+	width: 106%; 
+	margin-left: -0.7em;  
+}
+.login-bottom input[type="submit"]:hover {
+    color: #ffc2bc;
+    background: #232323;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.login-bottom:hover:before {
+    border-right-color:#232323;
+}
+.login-bottom:hover:after {
+	border-left-color:#232323;
+}
+.login-btm {
+    padding: 2em 0;
+    text-align: center;
+}
+.login-btm p a{
+	font-size:1em;
+    color: #fff;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+	margin-left: 6px;
+}
+.login-btm p a:hover{
+    color: #ffc2bc;
+}
+
+/* cheerup.html  CSS */
+.thumbnail{
+	margin-top: 3.3125rem;
+}
+
+/* lucky.html CSS */
+.lucky{
+	background:#ffc2bc;
+	border:1px hidden solid;
+	width: 45rem;
+	height: 43rem;	
+	margin:0 auto;
+	margin-top: 4.625rem;
+	border-radius:1.25rem;
+}
+.lucky-head{
+	padding-top: 4rem;
+	font-size: 2.5rem;
+	text-align: center;
+}
+.lucky-body{
+	padding-top: 4rem;
+	padding-left: 8rem;
+	font-size:1.6rem;
+}
+.lucky-bottom{
+	text-align: center;
+	padding-top: 2.5rem;
+}
+
+/* myself.html CSS */
+#myself-bg{
+	background: #f0f0f0;
+}
+.myself{
+	background:white;
+	border:1px hidden solid;
+	width: 55rem;
+	height: 55rem;	
+	margin:0 auto;
+	margin-top: 4.625rem;
+	border-radius:1.25rem;
+}
+.myself-head{
+	text-align: right;
+	padding-top: 2.25rem;
+	padding-right: 2.875rem;
+}
+.myself-top{
+	padding-top: 1rem;
+	font-size: 2rem;
+	text-align: center;
+}
+.myself-form{
+	text-align: center;
+	padding-top: 2.5rem;
+}
+.myself-bottom{
+	text-align: center;
+	padding-top: 2.5rem;
+}
+
+/* x.html CSS */
+#x{
+	background: #fcfcfc;
+}
+.x-all ,.x-head ,.x-bottom{
+	background: white;
+}
+.x-btn{
+	float: right;	
+}
+.x-all{
+	border: #000000 1px hidden;
+	/* width: auto; */
+	
+}
+.x-head{
+	padding-top: 5.25rem;
+}
+.x-body-left ,.x-body-right{
+	border: #F4F4F4 1px solid;
+	height:35rem;
+}
+.x-bottom{
+	text-align: center;
+	padding-top: 2.5rem;
+}
+.x-bottom button{
+	float: right;
+}
+.x-all button{
+	margin-top:1rem;
+}
+
+.circle-header li img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+/*上传头像框*/
+.fileInput{
+	position: absolute;
+	height: 10px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	display: block;
+	width: 3.5rem;
+	clear: both;
+	display: block;
+	margin: auto;
+	background-color: red;
+}
+
+/*用户头像*/
+.user-header {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+#hidden-li a{
+	display: none;
+}
+
+/*隐藏滚动条*/
+::-webkit-scrollbar {
+	display: none; /* Chrome Safari */
+}
+
+.userBackground {
+	background: url('../img/photo1.png') center center;
+}

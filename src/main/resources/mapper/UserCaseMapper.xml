@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhuan.friends.dao.UserCaseMapper">
+
+    <sql id="selectFields">
+       id,request_id,response_id,conversation_id,content,status,create_time,cheer_time,success_time,score
+    </sql>
+
+    <sql id="insertFields">
+        request_id,response_id,conversation_id,content,status,create_time,cheer_time,success_time,score
+    </sql>
+
+    <!--插入一条case-->
+    <insert id="insertCase" parameterType="UserCase" keyProperty="id">
+        insert into user_case (<include refid="insertFields"></include>)
+        VALUES (#{requestId},#{responseId},#{conversationId},#{content},#{status}
+        ,#{createTime},#{cheerTime},#{successTime},#{score});
+    </insert>
+
+
+    <select id="selectAllUserCase" resultType="UserCase">
+        select <include refid="selectFields"></include> from user_case
+        where
+        <if test="status==1">
+            status != 0
+        </if>
+        <if test="status==2">
+            status = 2
+        </if>
+        <if test="status==3">
+            status = 3
+        </if>
+        <if test="userId != 0">
+            and (request_id = #{userId} or response_id = #{userId})
+        </if>
+        ORDER by create_time DESC
+        limit #{offset} , #{limit}
+    </select>
+
+    <select id="selectUserCaseCount" resultType="int">
+        select count(id) from user_case
+        where
+        <if test="status==1">
+            status != 0
+        </if>
+        <if test="status==2">
+            status = 2
+        </if>
+        <if test="status==3">
+            status = 3
+        </if>
+        <if test="userId != 0">
+            and (request_id = #{userId} or response_id = #{userId})
+        </if>
+    </select>
+
+    <select id="selectUserCaseById" resultType="UserCase">
+        select <include refid="selectFields"></include> from user_case
+        where id = #{userCaseId}
+    </select>
+
+
+    <!--根据conversationId查询用户关系 -->
+    <select id="selectUserCaseByConversationId" resultType="UserCase">
+        select <include refid="selectFields"></include> from user_case
+        where conversation_id = #{conversationId}
+    </select>
+
+    <!--根据id修改用户关系的状态 0 - 拒绝 1-普通好友关系 2-加入爱情加油站 3-成功牵手 -->
+    <update id="updateUserCaseStatus">
+        update user_case set status = #{status}
+        <if test="cheerTime!=null">
+            ,cheer_time = #{cheerTime}
+        </if>
+        <if test="successTime!=null">
+            ,success_time = #{successTime}
+        </if>
+        <if test="content!=null">
+            ,content = #{content}
+        </if>
+        where id = #{id}
+    </update>
+
+    <!--根据id更新好友关系的分数-->
+    <update id="updateUserCaseScore">
+        update user_case set score = #{score}
+        where id = #{id} and status = 2
+    </update>
+
+</mapper>

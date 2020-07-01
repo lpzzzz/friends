@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>找到一个好朋友</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <!--<link rel="stylesheet" th:href="@{/css/global.css}"/>-->
+</head>
+<body id="login-bg">
+<!--导航栏-->
+<nav class="navbar navbar-inverse" th:replace="sports::header">
+</nav>
+<!--注册板块-->
+<div class="login-main">
+    <h1>注&nbsp;册</h1>
+    <div class="login-form">
+        <div class="login-top">
+            <form th:action="@{/register}" method="post">
+                <div class="login-input">
+                    <input th:class="|${usernameMsg!=null?'is-invalid':''}|" type="text" name="username" required=""
+                           th:value="${user!=null?user.username:''}"/>
+                    <label>用户名</label>
+                    <span></span>
+                    <div class="invalid-feedback" th:text="${usernameMsg}">
+                        密码长度不能小于8位!
+                    </div>
+                </div>
+                <div class="login-input">
+                    <input th:class="|${emailMsg!=null?'is-invalid':''}|" type="text" name="email"
+                           th:value="${user!=null?user.email:''}"/>
+                    <label>Email</label>
+                    <span></span>
+                    <div class="invalid-feedback" th:text="${emailMsg}">
+                        密码长度不能小于8位!
+                    </div>
+                </div>
+                <div class="login-input">
+                    <input th:class="|${passwordMsg!=null?'is-invalid':''}|" type="password" name="password"
+                           th:value="${user!=null?user.password:''}">
+                    <label>密码</label>
+                    <span></span>
+                    <div class="invalid-feedback" th:text="${passwordMsg}">
+                        密码长度不能小于8位!
+                    </div>
+                </div>
+                <div class="login-bottom">
+                    <input type="submit" value="注册">
+                </div>
+            </form>
+        </div>
+        <div class="login-btm">
+            <p>已有账号 ? <a th:href="@{/login}"> 立即登录</a></p>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<footer class="footer">
+    <p>版权所有  @郑欢</p>
+    <p>联系邮箱:1559519540@qq.com</p>
+</footer>
+<!--引用JS文件-->
+<!-- jquery.min -->
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<!--bootstrap.min-->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--main.js-->
+<script th:src="@{js/main.js}"></script>
+</body>
+</html>

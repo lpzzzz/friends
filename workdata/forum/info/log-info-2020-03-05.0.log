@@ -1,0 +1,86 @@
+2020-03-05 00:12:56,444 INFO [Thread-63] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 00:12:56,454 INFO [Thread-63] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-12 - Shutdown initiated...
+2020-03-05 00:12:56,463 INFO [Thread-63] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-12 - Shutdown completed.
+2020-03-05 00:12:56,952 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:55] Starting FriendsApplication on QH-20161204IWOD with PID 11524 (D:\ideaprojects\friends\target\classes started by Administrator in D:\ideaprojects\friends)
+2020-03-05 00:12:56,953 INFO [restartedMain] c.z.f.FriendsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-05 00:12:57,316 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 9999 (http)
+2020-03-05 00:12:57,317 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9999"]
+2020-03-05 00:12:57,317 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-03-05 00:12:57,317 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-05 00:12:57,344 INFO [restartedMain] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-03-05 00:12:57,345 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 389 ms
+2020-03-05 00:12:57,536 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 00:12:58,038 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-03-05 00:12:58,054 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9999"]
+2020-03-05 00:12:58,071 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 9999 (http) with context path '/friends'
+2020-03-05 00:12:58,072 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:61] Started FriendsApplication in 1.174 seconds (JVM running for 11634.72)
+2020-03-05 00:12:58,073 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2020-03-05 00:13:00,529 INFO [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 00:13:00,537 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-03-05 00:13:00,539 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2020-03-05 00:13:00,542 INFO [http-nio-9999-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-13 - Starting...
+2020-03-05 00:13:00,551 INFO [http-nio-9999-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-13 - Start completed.
+2020-03-05 00:14:53,759 INFO [Thread-68] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 00:14:53,760 INFO [Thread-68] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-13 - Shutdown initiated...
+2020-03-05 00:14:53,782 INFO [Thread-68] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-13 - Shutdown completed.
+2020-03-05 00:14:54,438 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:55] Starting FriendsApplication on QH-20161204IWOD with PID 11524 (D:\ideaprojects\friends\target\classes started by Administrator in D:\ideaprojects\friends)
+2020-03-05 00:14:54,439 INFO [restartedMain] c.z.f.FriendsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-05 00:14:54,828 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 9999 (http)
+2020-03-05 00:14:54,828 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9999"]
+2020-03-05 00:14:54,829 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-03-05 00:14:54,829 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-05 00:14:54,866 INFO [restartedMain] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-03-05 00:14:54,867 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 425 ms
+2020-03-05 00:14:55,146 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 00:14:55,811 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-03-05 00:14:55,825 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9999"]
+2020-03-05 00:14:55,833 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 9999 (http) with context path '/friends'
+2020-03-05 00:14:55,835 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:61] Started FriendsApplication in 1.459 seconds (JVM running for 11752.472)
+2020-03-05 00:14:55,837 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2020-03-05 00:14:57,427 INFO [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 00:14:57,428 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-03-05 00:14:57,433 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 4 ms
+2020-03-05 00:14:57,435 INFO [http-nio-9999-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-14 - Starting...
+2020-03-05 00:14:57,539 INFO [http-nio-9999-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-14 - Start completed.
+2020-03-05 00:16:28,208 INFO [Thread-73] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 00:16:28,209 INFO [Thread-73] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-14 - Shutdown initiated...
+2020-03-05 00:16:28,217 INFO [Thread-73] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-14 - Shutdown completed.
+2020-03-05 00:16:28,805 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:55] Starting FriendsApplication on QH-20161204IWOD with PID 11524 (D:\ideaprojects\friends\target\classes started by Administrator in D:\ideaprojects\friends)
+2020-03-05 00:16:28,806 INFO [restartedMain] c.z.f.FriendsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-05 00:16:29,617 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 9999 (http)
+2020-03-05 00:16:29,618 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9999"]
+2020-03-05 00:16:29,619 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-03-05 00:16:29,619 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-05 00:16:29,652 INFO [restartedMain] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-03-05 00:16:29,653 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 844 ms
+2020-03-05 00:16:29,897 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 00:16:30,228 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-03-05 00:16:30,237 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9999"]
+2020-03-05 00:16:30,241 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 9999 (http) with context path '/friends'
+2020-03-05 00:16:30,241 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:61] Started FriendsApplication in 1.521 seconds (JVM running for 11846.87)
+2020-03-05 00:16:30,243 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2020-03-05 00:16:30,302 INFO [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 00:16:30,303 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-03-05 00:16:30,306 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 3 ms
+2020-03-05 00:16:30,310 INFO [http-nio-9999-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-15 - Starting...
+2020-03-05 00:16:30,318 INFO [http-nio-9999-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-15 - Start completed.
+2020-03-05 00:35:47,813 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:55] Starting FriendsApplication on QH-20161204IWOD with PID 10304 (D:\ideaprojects\friends\target\classes started by Administrator in D:\ideaprojects\friends)
+2020-03-05 00:35:47,816 INFO [restartedMain] c.z.f.FriendsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-05 00:35:47,903 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 00:35:47,903 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 00:35:49,861 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 9999 (http)
+2020-03-05 00:35:49,927 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9999"]
+2020-03-05 00:35:49,928 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-03-05 00:35:49,928 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-05 00:35:50,430 INFO [restartedMain] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-03-05 00:35:50,431 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2528 ms
+2020-03-05 00:35:52,869 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 00:35:53,323 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-03-05 00:35:53,361 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9999"]
+2020-03-05 00:35:53,406 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 9999 (http) with context path '/friends'
+2020-03-05 00:35:53,468 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:61] Started FriendsApplication in 6.37 seconds (JVM running for 10.514)
+2020-03-05 00:36:06,165 INFO [http-nio-9999-exec-2] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 00:36:06,166 INFO [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-03-05 00:36:06,177 INFO [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 11 ms
+2020-03-05 00:36:09,494 INFO [http-nio-9999-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-05 00:36:09,850 INFO [http-nio-9999-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.

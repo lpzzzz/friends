@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>找到一个好朋友</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <link rel="stylesheet" th:href="@{/plugins/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/plugins/font-awesome/css/font-awesome.min.css}">
+    <link rel="stylesheet" th:href="@{/plugins/ionicons/css/ionicons.min.css}">
+    <link rel="stylesheet" th:href="@{/plugins/iCheck/square/blue.css}">
+    <link rel="stylesheet" th:href="@{/plugins/morris/morris.css}">
+    <link rel="stylesheet" th:href="@{/plugins/jvectormap/jquery-jvectormap-1.2.2.css}">
+    <link rel="stylesheet" th:href="@{/plugins/datepicker/datepicker3.css}">
+    <link rel="stylesheet" th:href="@{/plugins/daterangepicker/daterangepicker.css}">
+    <link rel="stylesheet" th:href="@{/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css}">
+    <link rel="stylesheet" th:href="@{/plugins/datatables/dataTables.bootstrap.css}">
+    <link rel="stylesheet" th:href="@{/plugins/treeTable/jquery.treetable.css}">
+    <link rel="stylesheet" th:href="@{/plugins/treeTable/jquery.treetable.theme.default.css}">
+    <link rel="stylesheet" th:href="@{/plugins/select2/select2.css}">
+    <link rel="stylesheet" th:href="@{/plugins/colorpicker/bootstrap-colorpicker.min.css}">
+    <link rel="stylesheet" th:href="@{/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css}">
+    <link rel="stylesheet" th:href="@{/plugins/adminLTE/css/AdminLTE.css}">
+    <link rel="stylesheet" th:href="@{/plugins/adminLTE/css/skins/_all-skins.min.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{/plugins/ionslider/ion.rangeSlider.css}">
+    <link rel="stylesheet" th:href="@{/plugins/ionslider/ion.rangeSlider.skinNice.css}">
+    <link rel="stylesheet" th:href="@{/plugins/bootstrap-slider/slider.css}">
+    <link rel="stylesheet" th:href="@{/plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.css}">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body>
+<!--导航栏-->
+<nav class="navbar navbar-inverse" th:replace="sports::header">
+    <div class="container-fluid" >
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Make Friends</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="myself.html">个人中心</a></li>
+                <li class="active"><a href="vip.html">会员</a></li>
+                <li><a href="../sports.html">活动</a></li>
+                <li><a href="event.html">案例</a></li>
+                <li><a href="cheerup.html">爱情加油站</a></li>
+                <li><a href="lucky.html">有缘人</a></li>
+                <li><a href="register.html">注册</a></li>
+                <li><a href="index.html">登录</a></li>
+            </ul>
+        </div>
+    </div><!--container-fluid结束-->
+</nav><!--nav结束-->
+<!--导航条-->
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#"><b>最新会员</b></a></li>
+    </ul>
+</div>
+<!--最新会员排行-->
+<!--ranking排-->
+<div class="ranking">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" th:each="map : ${userList}">
+                <!-- Widget: user widget style 1 -->
+                <a th:href="@{|/user/profile/${map.user.id}|}">
+                    <div class="box box-widget widget-user">
+                        <!-- Add the bg color to the header using any of the bg-* classes -->
+                        <div class="widget-user-header bg-black userBackground">
+                            <!--<h3 class="widget-user-username" style="color: rgba(56,63,89,.6);font-weight: bold;" th:utext="${map.user.username}">Elizabeth Pierce</h3>-->
+                            <!--<h5 class="widget-user-desc">Web Designer</h5>-->
+                        </div>
+                        <div class="widget-user-image">
+                            <img class="img-circle" th:src="${map.user.headerUrl}" alt="User Avatar">
+                        </div>
+                        <div class="box-footer">
+                            <div class="row">
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                        <!--<h5 class="description-header" >爱好</h5>-->
+                                        <!--<span class="description-text" th:utext="${map.user.hobby}">SALES</span>-->
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                        <!--<h5 class="description-header" th:utext="${map.user.username}">13,000</h5>-->
+                                        <span class="description-text" th:utext="${map.user.username}">FOLLOWERS</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4">
+                                    <div class="description-block">
+                                        <!--<h5 class="description-header">35</h5>-->
+                                        <!--<span class="description-text">PRODUCTS</span>-->
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!--卡片1-->
+
+        </div><!--row结束-->
+    </div><!--container结束-->
+</div><!--rankink结束-->
+
+<!--分页组件引用-->
+<div th:replace="sports::pagination"></div>
+
+
+<!--底部-->
+<footer class="footer">
+    <p>版权所有  @郑欢</p>
+    <p>联系邮箱:1559519540@qq.com</p>
+</footer>
+<script th:src="@{/plugins/jQuery/jquery-2.2.3.min.js}"></script>
+<script th:src="@{/plugins/jQueryUI/jquery-ui.min.js}"></script>
+<script>
+    $.widget.bridge('uibutton', $.ui.button);
+</script>
+<script th:src="@{/plugins/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{/plugins/raphael/raphael-min.js}"></script>
+<script th:src="@{/plugins/morris/morris.min.js}"></script>
+<script th:src="@{/plugins/sparkline/jquery.sparkline.min.js}"></script>
+<script th:src="@{/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js}"></script>
+<script th:src="@{/plugins/jvectormap/jquery-jvectormap-world-mill-en.js}"></script>
+<script th:src="@{/plugins/knob/jquery.knob.js}"></script>
+<script th:src="@{/plugins/daterangepicker/moment.min.js}"></script>
+<script th:src="@{/plugins/daterangepicker/daterangepicker.js}"></script>
+<script th:src="@{/plugins/daterangepicker/daterangepicker.zh-CN.js}"></script>
+<script th:src="@{/plugins/datepicker/bootstrap-datepicker.js}"></script>
+<script th:src="@{/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js}"></script>
+<script th:src="@{/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js}"></script>
+<script th:src="@{/plugins/slimScroll/jquery.slimscroll.min.js}"></script>
+<script th:src="@{/plugins/fastclick/fastclick.js}"></script>
+<script th:src="@{/plugins/iCheck/icheck.min.js}"></script>
+<script th:src="@{/plugins/adminLTE/js/app.min.js}"></script>
+<script th:src="@{/plugins/treeTable/jquery.treetable.js}"></script>
+<script th:src="@{/plugins/select2/select2.full.min.js}"></script>
+<script th:src="@{/plugins/colorpicker/bootstrap-colorpicker.min.js}"></script>
+<script th:src="@{/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.zh-CN.js}"></script>
+<script th:src="@{/plugins/bootstrap-markdown/js/bootstrap-markdown.js}"></script>
+<script th:src="@{/plugins/bootstrap-markdown/locale/bootstrap-markdown.zh.js}"></script>
+<script th:src="@{/plugins/bootstrap-markdown/js/markdown.js}"></script>
+<script th:src="@{/plugins/bootstrap-markdown/js/to-markdown.js}"></script>
+<script th:src="@{/plugins/ckeditor/ckeditor.js}"></script>
+<script th:src="@{/plugins/input-mask/jquery.inputmask.js}"></script>
+<script th:src="@{/plugins/input-mask/jquery.inputmask.date.extensions.js}"></script>
+<script th:src="@{/plugins/input-mask/jquery.inputmask.extensions.js}"></script>
+<script th:src="@{/plugins/datatables/jquery.dataTables.min.js}"></script>
+<script th:src="@{/plugins/datatables/dataTables.bootstrap.min.js}"></script>
+<script th:src="@{/plugins/chartjs/Chart.min.js}"></script>
+<script th:src="@{/plugins/flot/jquery.flot.min.js}"></script>
+<script th:src="@{/plugins/flot/jquery.flot.resize.min.js}"></script>
+<script th:src="@{/plugins/flot/jquery.flot.pie.min.js}"></script>
+<script th:src="@{/plugins/flot/jquery.flot.categories.min.js}"></script>
+<script th:src="@{/plugins/ionslider/ion.rangeSlider.min.js}"></script>
+<script th:src="@{/plugins/bootstrap-slider/bootstrap-slider.js}"></script>
+<script th:src="@{/plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.js}"></script>
+<script th:src="@{/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js}"></script>
+<script>
+    $(document).ready(function () {
+        // 选择框
+        $(".select2").select2();
+
+        // WYSIHTML5编辑器
+        $(".textarea").wysihtml5({
+            locale: 'zh-CN'
+        });
+    });
+
+    // 设置激活菜单
+    function setSidebarActive(tagUri) {
+        var liObj = $("#" + tagUri);
+        if (liObj.length > 0) {
+            liObj.parent().parent().addClass("active");
+            liObj.addClass("active");
+        }
+    }
+
+    $(document).ready(function () {
+        // 激活导航位置
+        setSidebarActive("admin-profile");
+    });
+</script>
+
+</body>
+</html>

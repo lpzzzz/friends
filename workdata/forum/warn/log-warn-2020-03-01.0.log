@@ -1,0 +1,1274 @@
+2020-02-29 00:03:42,721 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s8ms255µs415ns).
+2020-02-29 00:04:04,867 WARN [http-nio-9999-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-02-29 00:05:41,507 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s877ms421µs375ns).
+2020-02-29 00:08:19,128 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:10:09,420 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:10:32,090 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:10:49,885 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:11:05,379 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:12:06,324 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:13:19,387 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:13:24,420 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:13:32,859 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:13:32,953 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcConfig': Unsatisfied dependency expressed through field 'loginTicketInterceptor'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginTicketInterceptor' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\interceptor\LoginTicketInterceptor.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.interceptor.LoginTicketInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4871c355]
+2020-02-29 00:13:41,442 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:13:46,217 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:13:46,549 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcConfig': Unsatisfied dependency expressed through field 'loginTicketInterceptor'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginTicketInterceptor' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\interceptor\LoginTicketInterceptor.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.interceptor.LoginTicketInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@27018f83]
+2020-02-29 00:13:55,849 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:14:03,435 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:15:15,014 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:15:21,792 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:20:08,418 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 00:21:53,207 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s417ms17µs931ns).
+2020-02-29 00:23:47,130 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s591ms220µs845ns).
+2020-02-29 14:25:36,314 WARN [http-nio-9999-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-02-29 14:28:17,485 WARN [http-nio-9999-exec-7] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-02-29 14:48:16,266 WARN [http-nio-9999-exec-5] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-02-29 14:51:38,228 WARN [http-nio-9999-exec-10] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-02-29 15:30:29,664 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 15:31:13,064 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 15:32:00,089 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 15:32:19,740 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:09:16,758 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:10:01,779 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:10:13,293 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:11:05,742 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:11:29,432 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:11:37,087 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:11:51,149 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:13:43,813 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.zhuan.friends.FriendsApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/zhuan/friends/utils/FriendsConstant.class] cannot be opened because it does not exist
+2020-02-29 16:13:54,227 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:13:54,300 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcConfig': Unsatisfied dependency expressed through field 'loginTicketInterceptor'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginTicketInterceptor' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\interceptor\LoginTicketInterceptor.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.interceptor.LoginTicketInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@77838d17]
+2020-02-29 16:13:58,184 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:13:58,260 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webMvcConfig' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\config\WebMvcConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.config.WebMvcConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@51fd9e60]
+2020-02-29 16:14:03,458 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:14:45,555 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:14:57,168 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:15:08,010 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:15:16,264 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:15:28,474 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:15:36,099 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:15:43,903 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:15:51,113 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:15:58,970 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:16:16,211 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:16:27,421 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:16:35,721 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:16:48,519 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:17:17,653 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:17:25,610 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:17:49,574 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:18:02,289 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:18:27,462 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:18:38,200 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:18:54,335 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:19:06,249 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:19:42,372 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:20:29,047 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:20:36,425 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:21:28,064 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:21:44,853 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:21:57,026 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:22:04,087 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:22:14,737 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:22:49,141 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:23:05,210 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:23:20,580 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:23:31,051 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:23:45,039 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:23:54,691 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:24:09,001 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:24:15,355 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:26:28,090 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:26:54,730 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:28:01,711 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:28:52,984 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:29:13,232 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:29:21,543 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:30:02,797 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:30:19,088 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 16:33:22,465 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:01:50,260 WARN [http-nio-9999-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-02-29 21:05:04,026 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:05:41,735 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:05:48,337 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:05:58,113 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:25:23,110 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:25:23,358 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activityController': Unsatisfied dependency expressed through field 'activityService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityService' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\service\ActivityService.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.service.ActivityService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3bc94648]
+2020-02-29 21:25:31,572 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:25:38,210 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:25:38,831 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activityController': Unsatisfied dependency expressed through field 'activityService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityService' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\service\ActivityService.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.service.ActivityService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@65eaa578]
+2020-02-29 21:25:52,171 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:26:30,135 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:26:40,771 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:27:08,959 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:28:12,085 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:28:12,258 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityController' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\ActivityController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.ActivityController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@18e02afa]
+2020-02-29 21:28:40,841 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:29:30,673 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:58:16,965 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 21:58:17,091 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityController' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\ActivityController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.ActivityController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7f36068b]
+2020-02-29 22:01:58,025 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:02:07,457 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:02:07,835 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityController' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\ActivityController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.ActivityController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3ed9f09f]
+2020-02-29 22:02:14,504 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:02:23,306 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:02:23,840 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityController' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\ActivityController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.ActivityController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a50e500]
+2020-02-29 22:03:12,297 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:03:32,208 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:03:32,365 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityController' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\ActivityController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.ActivityController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4124aed7]
+2020-02-29 22:03:51,601 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:03:59,726 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:04:00,046 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityController' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\controller\ActivityController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.controller.ActivityController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@c4a1863]
+2020-02-29 22:04:27,714 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:04:33,903 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:04:34,237 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activityController': Unsatisfied dependency expressed through field 'commentService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zhuan.friends.service.CommentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-29 22:33:24,484 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:33:24,632 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcConfig': Unsatisfied dependency expressed through field 'loginTicketInterceptor'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginTicketInterceptor': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\ideaprojects\friends\target\classes\mapper\ActivityMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\ideaprojects\friends\target\classes\mapper\ActivityMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Activity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Activity
+2020-02-29 22:33:30,310 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:33:48,604 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:33:55,432 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:33:55,672 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activityController': Unsatisfied dependency expressed through field 'activityService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityService' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\service\ActivityService.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.service.ActivityService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4583c117]
+2020-02-29 22:51:58,663 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:52:28,376 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 22:52:48,300 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:02:13,981 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:02:29,051 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:04:02,001 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:07:58,682 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:09:43,803 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:11:04,203 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:11:14,570 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:17:49,085 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:18:05,426 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:18:11,760 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:18:17,261 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:18:37,675 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:18:46,639 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:18:58,939 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:19:22,664 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:19:43,487 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:19:53,765 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:20:07,898 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:25:05,430 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:25:16,375 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:25:24,320 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:25:31,635 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:26:12,591 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:26:30,011 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:27:44,641 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:27:50,404 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:27:56,550 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:30:20,296 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:30:31,742 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:30:38,964 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:31:30,211 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:32:17,949 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:32:24,733 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:32:49,226 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:33:33,389 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:33:41,024 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:33:48,941 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:34:04,828 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.zhuan.friends.FriendsApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/zhuan/friends/controller/ActivityController.class] cannot be opened because it does not exist
+2020-02-29 23:34:10,031 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:34:15,228 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:34:28,184 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:34:36,523 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:35:16,302 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:35:23,536 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:36:13,532 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:36:19,959 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:36:28,217 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:36:35,243 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:36:40,763 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:37:27,192 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:37:44,023 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:37:53,171 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:38:41,172 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:38:54,652 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:39:00,432 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:39:53,453 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:40:23,167 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:40:39,917 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:40:45,059 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:40:58,862 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:41:10,944 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:41:42,549 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:41:55,361 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:43:17,815 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:43:34,830 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:43:40,157 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:45:47,385 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s566ms750µs260ns).
+2020-02-29 23:54:17,525 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:57:12,607 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:58:01,323 WARN [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:61] Unable to start LiveReload server
+2020-02-29 23:59:21,089 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:59:28,116 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:59:35,351 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-02-29 23:59:41,607 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:01:15,979 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:01:21,330 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:01:28,177 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:01:34,195 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:12:20,873 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:12:38,025 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:12:44,563 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:12:51,692 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:12:57,681 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:13:05,423 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:14:41,408 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:16:10,159 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:16:22,558 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:16:30,455 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:16:38,484 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:16:58,984 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:17:50,276 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:18:44,997 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:18:50,609 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:18:56,566 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:19:24,982 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:19:31,693 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:32:57,878 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:33:05,790 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:33:14,436 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:35:31,582 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:35:35,698 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:36:01,972 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:36:07,776 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:53:19,267 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:53:32,491 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 00:53:38,201 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 01:40:29,820 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 02:47:39,606 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:40,250 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:40,732 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:41,329 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:41,816 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:42,307 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:42,693 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:43,079 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:43,422 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:43,762 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 02:47:44,093 WARN [main] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\ideaprojects\friends\target\classes\com\zhuan\friends\dao\UserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: Could not convert argument value of type [java.lang.String] to required type [java.lang.Class]: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Class'; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [com.zhuan.friends.dao.UserMapper]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:766)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getSingletonFactoryBeanForTypeCheck(AbstractAutowireCapableBeanFactory.java:1008)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:885)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:533)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1494)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:591)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.base/java.util.Optional.orElseGet(Optional.java:361)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2020-03-01 13:46:42,461 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 14:05:12,088 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 14:06:15,392 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 14:10:37,208 WARN [restartedMain] o.m.s.m.ClassPathMapperScanner [Logger.java:44] No MyBatis mapper was found in '[com.zhuan.friends]' package. Please check your configuration.
+2020-03-01 14:10:37,311 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 14:10:37,877 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\ideaprojects\friends\target\classes\mapper\ActivityMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\ideaprojects\friends\target\classes\mapper\ActivityMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Activity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Activity
+2020-03-01 14:10:42,605 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 14:28:28,389 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 14:28:46,210 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 14:28:51,873 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:55:31,077 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:55:39,319 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:56:27,539 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:56:42,271 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:56:49,130 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:58:52,378 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:58:57,526 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:59:52,575 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 20:59:57,538 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:00:07,314 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:00:14,429 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:01:19,282 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:14:27,446 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:14:44,176 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:15:33,258 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:40:35,691 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:41:30,075 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:41:34,819 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:41:43,745 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:41:53,834 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:42:15,710 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:42:21,788 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:42:28,026 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:42:53,072 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:43:05,696 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:43:15,358 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:43:22,950 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:43:41,493 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:43:55,219 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:44:41,589 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:44:47,134 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:44:53,249 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:45:07,421 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:45:19,047 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:49:54,943 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:50:08,703 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:50:16,742 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:50:22,322 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:50:36,774 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:50:49,901 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:51:07,962 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:51:22,225 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:51:28,993 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:51:57,901 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:52:23,825 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:52:36,424 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:52:42,415 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:53:02,679 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 21:53:10,750 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 22:48:06,570 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 22:49:02,767 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:51:21,661 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:51:42,725 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:52:15,562 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:52:45,192 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:53:00,927 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:54:47,027 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:54:59,306 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:55:54,789 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:56:00,470 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:56:08,826 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:56:24,677 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:56:34,210 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:56:38,033 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:57:03,740 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-01 23:57:47,653 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised

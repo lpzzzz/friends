@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX</title>
+</head>
+<body>
+<p>
+    <input type="button" value="发送AJAX" onclick="send();">
+</p>
+
+<!--需要使用JQuery发送AJAX请求-->
+<!--引用JS文件-->
+<!-- jquery.min -->
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    function send() {
+        $.post(
+            "/friends/hello/ajax",
+            {"name": "张三", "age": 23},
+            function (data) {
+                console.log(typeof(data));
+                console.log(data);
+                // 目前获取到的data是一个字符串需要将其转换为 JS对象 才能够取到其中的值
+                data = $.parseJSON(data);// 将JSON字符串转换为JS对象
+                console.log(typeof(data));
+                console.log(data.code);
+                console.log(data.msg);
+
+            }
+        );
+    }
+</script>
+</body>
+</html>

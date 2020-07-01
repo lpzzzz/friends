@@ -1,0 +1,234 @@
+2020-03-19 15:02:54,141 WARN [http-nio-9999-exec-6] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1706+"]
+2020-03-19 15:04:28,877 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:04:33,230 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:04:42,290 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:04:51,275 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:05:00,652 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:05:06,089 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:05:28,514 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:06:52,444 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:43:06,045 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:43:42,224 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:43:53,829 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:44:17,973 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:44:52,579 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:45:09,922 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:45:46,893 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:46:23,143 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:46:49,277 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:47:13,005 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:47:32,753 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:48:03,478 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:48:43,340 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:48:55,254 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:49:42,940 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:50:08,271 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:50:57,305 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:51:08,156 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:52:05,154 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:52:39,593 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:52:56,441 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:53:06,995 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:53:16,972 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:54:21,593 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:54:34,103 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:54:46,310 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:54:58,137 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 15:57:28,737 WARN [http-nio-9999-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "120333+"]
+2020-03-19 16:06:52,038 WARN [http-nio-9999-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2020-03-19 16:07:00,207 WARN [http-nio-9999-exec-10] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2020-03-19 16:07:46,471 WARN [http-nio-9999-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2020-03-19 16:08:27,911 WARN [http-nio-9999-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2020-03-19 16:08:47,738 WARN [http-nio-9999-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2020-03-19 16:42:01,075 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:42:33,258 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:42:55,872 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:43:11,964 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:43:23,418 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:43:36,829 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:43:49,962 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:44:00,195 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:44:18,571 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:44:35,794 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:44:51,373 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:45:00,428 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:45:22,298 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:47:53,180 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:48:04,514 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:48:19,691 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:48:30,141 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:49:47,590 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:49:55,597 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:50:26,744 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:50:45,709 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:51:37,331 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:51:58,503 WARN [http-nio-9999-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2020-03-19 16:53:37,937 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 16:56:00,263 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:04:09,297 WARN [http-nio-9999-exec-5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2020-03-19 17:04:12,161 WARN [http-nio-9999-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2020-03-19 17:06:18,337 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:06:29,842 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:06:57,875 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:07:21,218 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:07:59,152 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:08:17,114 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:08:42,247 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:08:52,452 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:09:07,655 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:09:20,664 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:11:25,279 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:12:11,221 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:12:29,201 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:12:41,621 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:13:04,772 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:13:45,033 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:14:01,955 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:14:11,255 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:16:11,734 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:16:32,274 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:16:42,637 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:16:52,958 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:17:24,421 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:17:44,632 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:18:01,827 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:18:11,412 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:18:20,401 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:18:31,855 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:18:42,891 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 17:18:54,881 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:37:19,557 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:37:28,885 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:37:55,667 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:45:53,275 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:46:13,508 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:46:25,573 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:46:33,593 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:46:43,285 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:46:57,513 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2020-03-19 22:51:37,744 WARN [restartedMain] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.config.RedisConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7af533f0]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1719)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1604)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zhuan.friends.FriendsApplication.main(FriendsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/data/redis/connection/RedisConnectionFactory
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3139)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2266)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.connection.RedisConnectionFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 30 common frames omitted
+2020-03-19 22:59:53,528 WARN [restartedMain] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.config.RedisConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3352fb34]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1719)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1604)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zhuan.friends.FriendsApplication.main(FriendsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/data/redis/connection/RedisConnectionFactory
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3139)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2266)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.connection.RedisConnectionFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 30 common frames omitted
+2020-03-19 23:00:00,997 WARN [restartedMain] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.zhuan.friends.config.RedisConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@742f1880]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1719)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1604)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zhuan.friends.FriendsApplication.main(FriendsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/data/redis/connection/RedisConnectionFactory
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3139)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2266)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.connection.RedisConnectionFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 30 common frames omitted

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>找到一个好朋友</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body id="login-bg">
+<!--导航栏-->
+<nav class="navbar navbar-inverse" th:replace="sports::header"> <!--已经引用活动页的头部导航-->
+</nav>
+<!--登录板块-->
+<div class="login-main">
+    <h1>登&nbsp;录</h1>
+    <div class="login-form">
+        <div class="login-top">
+            <form action="#" method="post">
+                <div class="login-input">
+                    <input type="text" th:class="|${usernameMsg!=null?'is-invalid':''}|" name="username"
+                           required=""
+                           th:value="${param.username}"/><!--这里的value从那里获得？ -->
+                    <label>用户名</label>
+                    <span></span>
+                    <div class="invalid-feedback" th:text="${usernameMsg}">
+                        密码长度不能小于8位!
+                    </div>
+                </div>
+                <div class="login-input">
+                    <input type="password" th:class="|${passwordMsg!=null?'is-invalid':''}|"
+                           name="password" required=""
+                           th:value="${param.password}">
+                    <label>密码</label>
+                    <span></span>
+                    <div class="invalid-feedback" th:text="${passwordMsg}">
+                        密码长度不能小于8位!
+                    </div>
+                </div>
+                <div class="login-bottom">
+                    <input type="submit" value="登录">
+                </div>
+            </form>
+        </div>
+        <div class="login-btm">
+            <p>还没有账号 ? <a th:href="@{/register}"> 立即注册</a></p>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<footer class="footer">
+    <p>版权所有  @郑欢</p>
+    <p>联系邮箱:1559519540@qq.com</p>
+</footer>
+
+<!--引用JS文件-->
+<!-- jquery.min -->
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<!--bootstrap.min-->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--main.js-->
+<script th:src="@{/js/main.js}"></script>
+</body>
+</html>

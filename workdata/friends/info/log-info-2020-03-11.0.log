@@ -1,0 +1,120 @@
+2020-03-11 00:32:30,925 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:55] Starting FriendsApplication on QH-20161204IWOD with PID 17192 (D:\ideaprojects\friends\target\classes started by Administrator in D:\ideaprojects\friends)
+2020-03-11 00:32:30,976 INFO [restartedMain] c.z.f.FriendsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 00:32:31,047 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-11 00:32:31,048 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-11 00:32:33,120 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 9999 (http)
+2020-03-11 00:32:33,135 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9999"]
+2020-03-11 00:32:33,135 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-03-11 00:32:33,136 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-11 00:32:33,376 INFO [restartedMain] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-03-11 00:32:33,377 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2329 ms
+2020-03-11 00:32:34,273 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 00:32:35,107 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9999"]
+2020-03-11 00:32:35,157 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 9999 (http) with context path '/friends'
+2020-03-11 00:32:35,164 INFO [restartedMain] c.z.f.FriendsApplication [StartupInfoLogger.java:61] Started FriendsApplication in 4.85 seconds (JVM running for 7.882)
+2020-03-11 00:32:53,620 INFO [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/friends] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-11 00:32:53,620 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-03-11 00:32:53,628 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
+2020-03-11 00:32:53,807 INFO [http-nio-9999-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 00:32:53,969 INFO [http-nio-9999-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 00:43:06,297 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:55] Starting MessageTests on QH-20161204IWOD with PID 12512 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 00:43:06,300 INFO [main] c.z.f.MessageTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 00:43:09,841 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 00:43:10,427 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:61] Started MessageTests in 4.898 seconds (JVM running for 7.189)
+2020-03-11 00:43:11,088 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 00:43:11,577 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 00:43:11,709 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.zhuan.friends.UserCaseTests], using SpringBootContextLoader
+2020-03-11 00:43:11,711 INFO [main] o.s.t.c.s.AbstractContextLoader [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.zhuan.friends.UserCaseTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-11 00:43:11,712 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils [AnnotationConfigContextLoaderUtils.java:83] Could not detect default configuration classes for test class [com.zhuan.friends.UserCaseTests]: UserCaseTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-11 00:43:11,715 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [SpringBootTestContextBootstrapper.java:235] Found @SpringBootConfiguration com.zhuan.friends.FriendsApplication for test class com.zhuan.friends.UserCaseTests
+2020-03-11 00:43:11,718 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-03-11 00:43:11,719 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@30228de7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28bd5015, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2e159116, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@d1f23a0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2976ca51, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b091a92, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6996bbc4, org.springframework.test.context.event.EventPublishingTestExecutionListener@1de08775, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2dbf2da, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@21a5b599, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7db162f2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@64f3991e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@39e3ea78]
+2020-03-11 00:43:12,015 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 00:43:12,020 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 00:43:12,030 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 00:55:34,921 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:55] Starting MessageTests on QH-20161204IWOD with PID 17084 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 00:55:34,925 INFO [main] c.z.f.MessageTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 00:55:38,869 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 00:55:39,463 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:61] Started MessageTests in 5.37 seconds (JVM running for 8.215)
+2020-03-11 00:55:40,045 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 00:55:40,990 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 00:55:42,500 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 00:55:42,504 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 00:55:42,650 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 00:57:06,347 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:55] Starting MessageTests on QH-20161204IWOD with PID 12192 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 00:57:06,350 INFO [main] c.z.f.MessageTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 00:57:10,066 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 00:57:10,610 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:61] Started MessageTests in 5.115 seconds (JVM running for 7.774)
+2020-03-11 00:57:11,230 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 00:57:12,286 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 00:57:13,827 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 00:57:13,843 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 00:57:13,987 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 01:00:10,110 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:55] Starting MessageTests on QH-20161204IWOD with PID 17944 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 01:00:10,113 INFO [main] c.z.f.MessageTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 01:00:14,695 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:00:15,258 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:61] Started MessageTests in 6.172 seconds (JVM running for 8.422)
+2020-03-11 01:00:15,890 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 01:01:09,136 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:55] Starting MessageTests on QH-20161204IWOD with PID 5744 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 01:01:09,139 INFO [main] c.z.f.MessageTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 01:01:13,084 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:01:13,653 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:61] Started MessageTests in 5.323 seconds (JVM running for 8.247)
+2020-03-11 01:01:14,353 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 01:01:15,326 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 01:01:16,833 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:01:16,834 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 01:01:17,033 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 01:02:07,591 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:55] Starting MessageTests on QH-20161204IWOD with PID 11376 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 01:02:07,594 INFO [main] c.z.f.MessageTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 01:02:11,711 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:02:12,288 INFO [main] c.z.f.MessageTests [StartupInfoLogger.java:61] Started MessageTests in 5.823 seconds (JVM running for 8.887)
+2020-03-11 01:02:12,918 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 01:02:13,867 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 01:02:15,412 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:02:15,416 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 01:02:15,574 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 01:08:17,378 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:55] Starting UserCaseTests on QH-20161204IWOD with PID 17044 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 01:08:17,382 INFO [main] c.z.f.UserCaseTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 01:08:21,099 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:08:21,725 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:61] Started UserCaseTests in 6.347 seconds (JVM running for 8.667)
+2020-03-11 01:08:22,366 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 01:08:23,277 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 01:08:24,786 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:08:24,788 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 01:08:24,987 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 01:11:33,830 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:55] Starting UserCaseTests on QH-20161204IWOD with PID 17608 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 01:11:33,833 INFO [main] c.z.f.UserCaseTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 01:11:37,366 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:11:37,954 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:61] Started UserCaseTests in 5.5 seconds (JVM running for 8.455)
+2020-03-11 01:11:38,572 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 01:11:39,556 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 01:11:40,353 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:11:40,355 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 01:11:40,735 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 01:13:19,368 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:55] Starting UserCaseTests on QH-20161204IWOD with PID 11152 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 01:13:19,371 INFO [main] c.z.f.UserCaseTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 01:13:23,295 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:13:23,967 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:61] Started UserCaseTests in 5.458 seconds (JVM running for 8.897)
+2020-03-11 01:13:24,641 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 01:13:25,585 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 01:13:26,414 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:13:26,419 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 01:13:26,719 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 01:18:49,611 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:55] Starting UserCaseTests on QH-20161204IWOD with PID 4648 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 01:18:49,614 INFO [main] c.z.f.UserCaseTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 01:18:53,165 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:18:53,752 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:61] Started UserCaseTests in 6.657 seconds (JVM running for 9.011)
+2020-03-11 01:18:54,430 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 01:18:55,392 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 01:18:56,214 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:18:56,216 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 01:18:56,570 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-03-11 01:22:05,193 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:55] Starting UserCaseTests on QH-20161204IWOD with PID 17396 (started by Administrator in D:\ideaprojects\friends)
+2020-03-11 01:22:05,205 INFO [main] c.z.f.UserCaseTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-11 01:22:08,829 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:22:09,424 INFO [main] c.z.f.UserCaseTests [StartupInfoLogger.java:61] Started UserCaseTests in 6.208 seconds (JVM running for 8.358)
+2020-03-11 01:22:10,112 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-03-11 01:22:11,070 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-03-11 01:22:11,855 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-11 01:22:11,859 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-03-11 01:22:12,206 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

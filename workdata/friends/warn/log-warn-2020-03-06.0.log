@@ -1,0 +1,1 @@
+2020-03-06 09:45:29,126 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised

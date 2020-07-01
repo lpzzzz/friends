@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhuan.friends.dao.UserMapper">
+    <sql id="selectFields">
+       id, username,gender,password,age,location,marriage,tel,salt,email,type,status,activation_code
+       ,header_url ,create_time,hobby
+    </sql>
+
+    <sql id="insertFields">
+       username,gender,password,age,location,marriage,tel,salt,email,type,status,activation_code
+       ,header_url ,create_time,hobby
+    </sql>
+
+    <!--查询所有激活用户用户信息-->
+    <select id="selectAll" resultType="User">
+        select
+        <include refid="selectFields"></include>
+        FROM user
+        WHERE status != 0
+        order BY create_time DESC
+        limit #{offset} , #{limit}
+    </select>
+
+    <!--查询所有激活用户的用户数-->
+    <select id="selectUserRows" resultType="int">
+        SELECT COUNT(id)
+        from user
+        where status != 0;
+    </select>
+
+    <!--根据id查询已激活的一个用户-->
+    <select id="selectById" resultType="User">
+        select
+        <include refid="selectFields"></include>
+        FROM user
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectByUserName" resultType="User">
+        select
+        <include refid="selectFields"></include>
+        FROM user
+        where username = #{username}
+    </select>
+
+    <select id="selectByEmail" resultType="User">
+        SELECT
+        <include refid="selectFields"></include>
+        from user
+        where email = #{email}
+    </select>
+
+    <!--查询系统中的有缘人-->
+    <select id="selectLuckyUser" resultType="User">
+        select <include refid="selectFields"></include> from user
+        where username like concat('%',#{username},'%')
+        <if test="gender == 0">
+            or gender = 1
+        </if>
+        <if test="gender == 1">
+            or gender = 0
+        </if>
+        <if test="location!=null">
+            or location like concat('%',#{location},'%')
+        </if>
+        order by gender desc ,create_time DESC
+        limit #{offset},#{limit}
+    </select>
+
+    <!--查询系统中的有缘人数量-->
+    <select id="selectLuckyUserRows" resultType="int">
+        select count(id) from user
+        where username like concat('%',#{username},'%')
+        <if test="gender == 0">
+            or gender = 1
+        </if>
+        <if test="gender == 1">
+            or gender = 0
+        </if>
+        <if test="location!=null">
+            or location like concat('%',#{location},'%')
+        </if>
+    </select>
+
+
+    <insert id="insertUser" parameterType="User" keyProperty="id">
+        insert into user (<include refid="insertFields"></include>)
+        VALUES (#{username},#{gender},#{password},#{age},#{location}
+        ,#{marriage},#{tel},#{salt} , #{email},#{type},
+        #{status} , #{activationCode},#{headerUrl},
+        #{createTime},#{hobby})
+    </insert>
+
+
+    <update id="updateUserStatus">
+        update user set status = #{status}
+        where id = #{id}
+    </update>
+
+    <update id="updateUserHeader">
+        update user set
+        header_url = #{headerUrl}
+        <if test="username != null">
+            ,username = #{username}
+        </if>
+        <if test="age != null">
+            ,age = #{age}
+        </if>
+        <if test="location != null">
+            ,location = #{location}
+        </if>
+        <if test="marriage != null">
+            ,marriage = #{marriage}
+        </if>
+        <if test="tel != null">
+            ,tel = #{tel}
+        </if>
+        <if test="hobby != null">
+            ,hobby = #{hobby}
+        </if>
+        <if test="gender != null">
+            ,gender = #{gender}
+        </if>
+        where id = #{id}
+    </update>
+
+    <update id="updateUserPassword">
+        update user set password = #{password}
+        where id = #{id}
+    </update>
+
+</mapper>
